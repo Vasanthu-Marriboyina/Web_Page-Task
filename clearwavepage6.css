@@ -1,0 +1,190 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+    background:#f8faf9;
+    color:#111;
+}
+
+.pricing{
+    width:1400px;
+    max-width:95%;
+    margin:50px auto;
+    text-align:center;
+    background-color: #e9f0ee;
+}
+
+.badge{
+    display:inline-block;
+    padding:10px 18px;
+    border-radius:30px;
+    background:#edf8f5;
+    color:#219a8d;
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:1px;
+}
+
+h1{
+    margin-top:25px;
+    font-size:50px;
+    font-weight:700;
+    line-height:1.1;
+}
+
+h1 span{
+    font-family:'Cormorant Garamond', serif;
+    font-style:italic;
+    color:#2a9d8f;
+    font-weight:600;
+    font-size: 70px;
+}
+
+.subtitle{
+    margin-top:18px;
+    color:#7a7a7a;
+    font-size:18px;
+}
+
+.toggle{
+    margin:35px 0 50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:14px;
+    font-weight:600;
+}
+
+.switch{
+    width:56px;
+    height:30px;
+    background:#1fa392;
+    border-radius:50px;
+    position:relative;
+}
+
+.switch::before{
+    content:"";
+    width:24px;
+    height:24px;
+    background:white;
+    border-radius:50%;
+    position:absolute;
+    top:3px;
+    left:3px;
+}
+
+.toggle small{
+    background:#edf8f5;
+    color:#219a8d;
+    padding:6px 12px;
+    border-radius:20px;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:340px;
+    background:white;
+    border-radius:24px;
+    padding:40px;
+    text-align:left;
+    box-shadow:0 10px 25px rgba(0,0,0,.05);
+}
+
+.card h5{
+    color:#9aa0a6;
+    letter-spacing:2px;
+    font-size:12px;
+}
+
+.price{
+    margin:20px 0;
+    font-size:60px;
+    font-weight:800;
+}
+
+.price span{
+    font-size:28px;
+}
+
+.price small{
+    font-size:18px;
+    color:#888;
+}
+
+.card p{
+    color:#0a524a;
+    line-height:1.8;
+    margin-bottom:25px;
+}
+
+.card ul{
+    list-style:none;
+}
+.fa-regular{
+    color: #219a8d;
+    font-weight: bold;
+}
+
+
+.card ul li{
+    margin-bottom:16px;
+    color: #0a524a;
+}
+
+.card button{
+    width:100%;
+    margin-top:25px;
+    border:none;
+    padding:16px;
+    border-radius:40px;
+    background:#fff;
+    border:1px solid #0a524a;
+    font-weight:700;
+    cursor:pointer;
+    color: #0a524a;
+}
+
+.featured{
+    background:#0d1117;
+    color:white;
+    position:relative;
+    transform:translateY(-20px);
+}
+
+.featured p,
+.featured li{
+    color:#d8d8d8;
+}
+
+.featured .popular{
+    position:absolute;
+    top:-15px;
+    left:50%;
+    transform:translateX(-50%);
+    background:#1fa392;
+    color:white;
+    padding:10px 22px;
+    border-radius:30px;
+    font-size:12px;
+    font-weight:700;
+}
+
+.featured button{
+    background:#1fa392;
+    color:white;
+    border:none;
+}
+.featured ul>li{
+    color: #d8d8d8;
+}
